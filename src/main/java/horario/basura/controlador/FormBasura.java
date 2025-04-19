@@ -8,6 +8,7 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.List;
+import java.util.TimeZone;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
@@ -60,6 +61,7 @@ public class FormBasura {
 	 * Metodo para realizar validacion de login
 	 */
     public String login() throws IOException {
+    	TimeZone.setDefault(TimeZone.getTimeZone("America/Bogota"));
     	Calendar c = new GregorianCalendar();
 		String dia, mes;
 		int annio;
