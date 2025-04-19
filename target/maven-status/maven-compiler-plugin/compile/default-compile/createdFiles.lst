@@ -1,0 +1,8 @@
+horario\basura\servicio\OrdenamiendoArrayName.class
+horario\basura\BasuraApplication.class
+horario\basura\JsfConfig.class
+horario\basura\servicio\EmailService.class
+horario\basura\entity\NombreUsuario.class
+horario\basura\servicio\EmailBean.class
+horario\basura\controlador\FormBasura.class
+horario\basura\entity\ArrayName.class
